@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f1117;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #0f1117;
+}
+
+.navbar nav a {
+    margin: 0 15px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+.navbar nav a:hover {
+    color: #00ffae;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+        padding: 60px;
+    }
+
+    .hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.hero-left p {
+    margin-bottom: 20px;
+}
+
+.hero-left button {
+    background: #00ffae;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+.hero-right img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.contact-info h5 {
+    color: #00ffae;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+
+.about-img img {
+    width: 300px;
+}
+
+.about-content h2 {
+    margin: 10px 0;
+}
+
+.about-content button {
+    margin-top: 20px;
+    background: #00ffae;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px;
+}
+
+.services h2 {
+    margin-bottom: 30px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: #1a1c23;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    border: 1px solid #00ffae;
+}
+
+/* PAGE COMMON */
+.page {
+    padding: 60px;
+}
+
+.page h1 {
+    margin-bottom: 20px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* CONTACT FORM */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: none;
+}
+
+.contact-form button {
+    background: #00ffae;
+    padding: 10px;
+    border: none;
+}
